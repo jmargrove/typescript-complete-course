@@ -1,0 +1,13 @@
+{
+  "name": "typescript-complete-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "t03jam8 <grovejam@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "scripts": {
+    "start": "lite-server"
+  }
+}
