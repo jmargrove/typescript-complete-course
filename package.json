@@ -9,5 +9,8 @@
   },
   "scripts": {
     "start": "lite-server"
+  },
+  "dependencies": {
+    "systemjs": "0.21.5"
   }
 }
