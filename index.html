@@ -5,24 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <script src="./node_modules/systemjs/dist/system.js"></script>
+    <script src="bundle.js""></script>
 </head>
 
 <body>
-    <script>
-        SystemJS.config({
-            baseURL: '/', // the root
-            packages: {
-                '/': {
-                    defaultJSExtensions: 'js' // auto add .js at the end of files 
-                }
-            }
 
-        })
 
-        SystemJS.import('app.js')
-    </script>
-    hello worlds
 </body>
 
 </html>
